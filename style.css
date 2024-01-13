@@ -1,0 +1,239 @@
+/* font-family: 'Mulish', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.7rem;
+
+    height: 67.9rem;
+
+    padding: 0 3.4rem;
+
+    background-color: #F9F4FB;
+}
+
+#astro{
+    width: 36.4rem;
+    height: 37rem;   
+}
+
+#first h1{
+    color: #B52184;
+
+    font-size: 3.2rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+#first p{
+    color: #312D64;
+
+    font-size: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+#down{
+    width: 3rem;
+    height: 4.5rem;
+
+    border: 1px solid #B52184;
+    border-radius: 7.6rem;
+}
+
+#two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5rem;
+
+    height: 124.2rem;
+
+    padding: 5.3rem 3.4rem;
+
+    background-color: #343193;
+}
+
+#planets{
+    width: 35.2rem;
+
+    border-radius: 2rem;
+
+    background-color: #fff;
+
+    padding: 2.6rem;
+}
+
+#planets img{
+    position: relative;
+
+    padding: 0 0 3.3rem 0 ;
+}
+
+#info h1{
+    color: #B52184;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#info p{
+    color: #312D64;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    width: 26.5rem;
+    height: 17.1ren;
+}
+
+#three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 4.3rem;
+
+    height: 56.5rem;
+
+    padding: 5.3rem 3.4rem;
+
+    background-color: #F9F4FB;
+}
+
+#three img{
+    z-index: -1;
+
+    width: 0;
+    height: 0;
+}
+
+#three h1{
+    color: #B52184;
+
+    font-size: 3.2rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+#dados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 2.4rem;
+}
+
+#dados input{
+    width: 34rem;
+
+    border: 2px solid #312D64;
+    border-radius: 1.6rem;
+
+    padding: 1.6rem;
+
+    font-size: 1.6rem;
+}
+
+#mensagem{
+    height: 14rem;
+}
+
+#dados button{
+    background-color: #343193;
+
+    color: #fff;
+
+    border-radius: 1.6rem;
+    border: none;
+
+    padding: 1rem;
+
+    width: 15rem;
+
+    font-size: 1.4rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+footer{
+    background-color: #343193;
+
+    padding: 3.2rem 1.6rem;
+}
+
+footer p{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+
+    color: #fff;
+
+    text-align: center;
+}
+
+
+@media(min-width: 770px){
+    #first{
+        padding: 0 2.9rem 0 10.9rem;
+
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        height: 84.6rem;
+    }
+    #astro{
+        width: 72rem;
+        height: 73.2rem;
+    }
+    #initial{
+        padding: 31.2rem 0 0 0;
+    }
+    #first h1{
+        font-size: 5.8rem;
+    }
+    #first p{
+        font-size: 3.2rem;
+    }
+    #down{
+        position: absolute;
+
+        left: 10.9rem;
+        bottom: 13.9rem;
+    }
+    #two{
+        height: 57.6rem;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 6rem;
+    } 
+    #three{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        height: 61.2rem;
+
+        padding: 0 0 0 10.9rem;
+    }
+    #three img{
+        width: 64.4rem;
+        height: 61.2rem;
+
+        z-index: 1;
+    }
+}
